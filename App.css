@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-page{
+    background-size:cover;
+    padding: 10px;
+
+}
+.company-name{
+    font-size:40px;
+    font-family:bree serif;
+    text-align: center;
+}
+.see-more{
+    font-size: 12px;
+    font-weight:bold;
+    align-self: center;
+}
+.searchBar{
+    width:80vw;
+    padding: 20px;
+    height:35px;
+    border-radius:10px ;
+    border-width:0px;
+    box-shadow:gray 6px 6px 10px 1px;
+
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.search-icon{
+    font-size:25px;
+    align-self:center;
+    margin-left: 10px;
+    margin-top:07px;
+    color: gray;
+    
+    
+}
+.package-name{
+    font-size: 20px;
+    font-weight:bold;
+    align-self: center;
+    
+}
+.packages-container{
+    margin-top:20px;
+}
+.packages-cards-container{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    justify-content: space-between;
+    font-family: Roboto;
+    
+}
+.see-more-container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    
+    
+}
+.see-more-button{
+    align-self: center;
+    border-width: 0px;
+    height:30px;
+    margin-left: 20px;
+    font-size:12px;
+    padding: 05px;
+    border-radius: 10px;
+    box-shadow:gray 6px 6px 10px 1px;
+}
+.see-more-button a{
+    margin-bottom: 10px;
+}
+.cards-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left:10px;
+    margin-right:05px;
+}
+.see-more-container a{
+    margin-top:16px;
+    font-size:18px;
+    font-family: Roboto;
+}
+.heading{
+    margin-left:10px;
+    font-size:25px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.cards{
+    display:flex;
+    width:23vw;
+    height:100%;
+    flex-direction: column;
+    border-width:0px;
+    border-radius: 10px;
+    box-shadow:gray 6px 6px 10px 1px;
+    margin: 8px;
+}
+.see-more-container{
+    display:flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+.see-more-icon{
+align-self: center;
+margin-left:03px;
+margin-top:03px;
+color:black;
+}
+.image{
+    border-top-left-radius: 10px;
+    border-top-right-radius:  10px;
+    height:120px;
+    width:100%;
+}
+.bookings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:30px;
+}
+
+.booking-container{
+    display: flex;
+    height: 25%;
+    flex-direction: row;
+  justify-content: space-evenly;
+}
+.booking-card-container{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    height:100px;
+    width: 100px;
+    flex-direction: column;
+    padding:10px;
+    border-radius: 25px;
+    box-shadow:gray 6px 6px 10px 1px;
+}
+.booking-icons{
+    font-size: 120px;
+    align-self: center;
+    box-shadow:gray 6px 6px 10px 1px;
+}
+.flightContainer i{
+    border-radius: 50%;
+    padding:10px;
+    
+    text-align: center;
+}
+.hotelContainer i{
+    border-radius: 50%;
+    padding:10px;
+    text-align: center;
+  
+}
+.booking-heading{
+    margin-top:10px;
+    font-size:35px;
+    text-align: left;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.booking{
+    border-radius: 10px;
+    border-width: 0px;
+    font-size:15px;
+    font-weight:500;
+    background-color: transparent;
+}
+.booking-container a{
+    color:black;
+    align-self: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-form {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.search-form h2 {
+    margin-top: 0;
+}
+
+.search-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-form input[type="text"],
+.search-form input[type="date"],
+.search-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.search-form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #555;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:transparent;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.package {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.package img {
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+
+.package .details {
+    flex: 1;
+}
+
+.package h2 {
+    margin-top: 0;
+}
+
+.package p {
+    margin-bottom: 10px;
+}
+
+.package button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.package button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .search-form,
+    .hotel-search-form,
+    .holiday-packages {
+        width: calc(50% - 20px);
+        margin-right: 20px;
+    }
+
+    .search-form,
+    .hotel-search-form {
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+
